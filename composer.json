@@ -1,0 +1,25 @@
+{
+    "name": "cabroe/material-plugin",
+    "description": "Shows a new textarea field for material in timesheets",
+    "homepage": "https://www.kimai.org/",
+    "type": "kimai-plugin",
+    "version": "0.1",
+    "require": {
+        "kimai/kimai2-composer": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carsten Bröckert",
+            "email": "cabroe@gmail.com",
+            "homepage": "https://www.kasit.de"
+        }
+    ],
+    "extra": {
+        "kimai": {
+            "require": "1.3",
+            "version": "0.1",
+            "name": "Material Plugin"
+        }
+    }
+}
